@@ -4,6 +4,10 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ff6363;
+    background-color: #aaa79c;
+    width: 100%;
+    text-align: center;
+    font-size: x-small;
+    
   }
