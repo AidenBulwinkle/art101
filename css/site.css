@@ -35,8 +35,10 @@ h1 {
   background-color: #A3C9A8;
 }
 
-.assignment section {
+.assignments section {
     margin: 20px;
-    float: right;
-    border: solid 1px cornflowerblue;
+    text-align: center;
+    border: solid 10px rgb(255, 0, 0);
+    color: black;
+    font-size: larger;
 }
