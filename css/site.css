@@ -37,6 +37,6 @@ h1 {
 
 .assignment section {
     margin: 20px;
-    float: left;
+    float: right;
     border: solid 1px cornflowerblue;
 }
