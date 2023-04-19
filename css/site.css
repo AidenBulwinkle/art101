@@ -34,3 +34,8 @@ h1 {
   border: solid 1px #888;
   background-color: #A3C9A8;
 }
+
+.assignment section {
+    margin: 10px;
+    border: solid 1px cornflowerblue;
+}
