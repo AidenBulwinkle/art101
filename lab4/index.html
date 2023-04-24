@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Subject/Topic</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,24 +23,56 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocode a simple game</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Overall this went relatively smoothly. The hardest part was finding a balance between too descriptive and too simple for pseudocode.
+						I feel like we hit a balance where we would not confuse ourselves if we had to code this, but it was clear enough that steps would not be lost.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>The biggest problem is still relatively basic coding tasks. A lot of CSS in the .hmtl or vise versa but nothing that two people troubleshooting wasn't able to quickly solve
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<div class="pseudocode">
+						<pre><code>
+						// index.js - Aiden Olivier makes pseudocode for a simple computer game in Java
+		// Author: Aiden Olivier and Elenes Vilchis
+		// Date:4.24.23
+		
+		// Functions
+		
+		//Choose a random 4 letter word
+			//select word from a linked file with a list of 4 letter words
+		//Print 4 spaces for the words, without showing the word
+		//Print first image of gallows
+		//User inputs a letter 
+			// If guessed correctly, correct letter is shown 
+			//  If guessed incorrectly, add 1 out of 6 limbs
+				//When a limb is added, move to the next image (6 images total)
+			// If letter has already been guessed, allow user to put in a different input
+				//Add incorrect letter to bottom of screen in alphabetical order
+		//Evaluate win or lose after every letter’s conditions, if neither is met repeat user input phase
+		//Win condition: fills all 4 letter slots correctly
+			//Show Win screen
+		//Loose condition: guesses 6 letters wrong and all limbs have been imputed
+			//Show loose screen of a full body being hung 
+		
+						</pre></code>
+					</div>
+					<p>Here are the screenshots from our code</p>
+						<img src=".\img\js_screenshot.jpg">
+					<p>Here is the pseudocode for a simple game. Made with Java comments, we 
+						made a simple pseudocode for hangman
+					</p>
+						<img src=".\img\html_screenshot.jpg">
+					<p>Here it is implemented into the pseudocode shown in HMTL (seen above on this page)	
+					</p>
 					<div id="output"></div>
 			</div>
 		</section>

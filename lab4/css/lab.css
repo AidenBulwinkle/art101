@@ -4,6 +4,30 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px red;
+    background-color: #000000;
+    color: white;
   }
+
+  .pseudocode {
+    background-color: rgb(255, 0, 195);
+    color: rgb(246, 255, 0);
+  }
+
+  .h, h1, h2, h3 {
+    color: red;
+    background-color: black;
+    text-align: center
+  }
+
+.content {
+  background-color: rgb(150, 150, 150);
+  color: white;  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}

@@ -12,14 +12,8 @@
 }
 
 .row::after {
-    conentent: "./img/scid2.jpg";
+    content: "./img/scid2.jpg";
     clear: both;
     display: table;
 }
 
-.assignments section {
-  margin: 20px;
-  text-align: left;
-  border: solid 10px rgb(255, 0, 0);
-  color: black;
-}
