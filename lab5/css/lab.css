@@ -4,6 +4,29 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px #0080ff;
+    background-color: #b69999;
+    text-align:center;
   }
+
+  .java {
+    color: white;
+    background-color: purple;
+    border-color: red;
+    border-radius: 5px;
+    text-align:center;
+  }
+
+  #content {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+
