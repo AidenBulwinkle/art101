@@ -27,6 +27,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-
+  border: solid 3px #0080ff;
+  background-color: #ffffff;
 }
 
