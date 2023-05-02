@@ -2,8 +2,31 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #0080ff;
+  background-color: #ffffff;
+  text-align:center;
+}
+
+.java {
+  color: white;
+  background-color: rgb(138, 138, 138);
+  border-color: rgb(27, 7, 255);
+  border-radius: 5px;
+  text-align:center;
+}
+
+#content {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+

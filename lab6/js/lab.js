@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Arrays and Objects
+// Author: Aiden Olivier and 
+// Date: 5.1.23
 
 // Constants
 
@@ -17,5 +17,30 @@ function main() {
   // the code that makes everything happen
 }
 
-// let's get this party started
+// Hi prof and tas :))
 main();
+//Here we define our variables
+var myTransport = ["Bike", "bus", "walking"];
+
+//These are being defined here because they were causing errors elsewhere
+
+var year = 1950
+
+myBike = {
+  make: "Beacon",
+  model: "Roadmaster",
+  color: "silver and red",
+  year: "1950",
+  age: 2023 - year,
+}
+
+// output
+console.log(myBike)
+
+console.log(myTransport)
+
+document.writeln("Transportion type: ", myTransport, "</br>");
+
+document.writeln("My Main Ride: <pre>",
+   JSON.stringify(myBike, null, '\t'), 
+   "</pre");
