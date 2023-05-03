@@ -1,0 +1,84 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+
+.minor-section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #0077b6;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.minor-section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0077b6;
+}
+
+/* java */
+
+.java {
+  display: block;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #0077b6;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #0077b6;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 600px) {
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .minor-section h2 {
+    font-size: 20px;
+  }
+  
+  #content {
+    padding: 10px;
+  }
+  
+  img {
+    margin: 10px auto;
+  }
+}
