@@ -1,9 +1,38 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* Opposite of what color theory should be */
+
+body {
+  background-color: #ff00ff; /* Bright pink background */
+  color: #00ffff; /* Bright cyan text */
+}
+
+h1, h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #00ffff; /* Bright cyan border */
+  text-align: center;
+  width: 25%;
+  font-family: 'Comic Sans MS', cursive; /* Unconventional font */
+}
+
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin: 10px;
+  background-color: #ffff00; /* Bright yellow background */
+  border: 1px solid #ff0000; /* Bright red border */
+  font-family: 'Courier New', Courier, monospace; /* Unconventional font */
+}
+
+#output {
+  border: 1px solid #ff00ff; /* Bright pink border */
+  height: 100px;
+  margin: 10px;
+  background-color: #00ff00; /* Bright green background */
+  color: #ff0000; /* Bright red text */
+  font-family: 'Impact', Charcoal, sans-serif; /* Unconventional font */
+}
