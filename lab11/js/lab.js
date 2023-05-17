@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Learn jQuery
+// Author: Aiden Olivier
+// Date: 5/17/23
 
 // Constants
 
@@ -19,3 +19,15 @@ function main() {
 
 // let's get this party started
 main();
+$(document).ready(function() {
+  $("#button1").click(function() {
+      $("#button2").toggleClass("color-change1");
+      $("h1, h2").toggleClass("change-font1");
+  });
+
+  $("#button2").click(function() {
+      $("#button1").toggleClass("color-change2");
+      $("h1, h2").toggleClass("change-font2");
+  });
+});
+
