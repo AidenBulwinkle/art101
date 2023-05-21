@@ -19,3 +19,24 @@ function main() {
 
 // let's get this party started
 main();
+var name = prompt ("Enter name");
+var house = sortingHat(name);
+console.log("sorting hat says: ", house)
+
+function sortingHat (string) {
+  var len = string.length;
+  if (len % 4 == 0){
+    return "Griffindor";
+  }
+
+else  if (len % 4 == 1){
+    return "snakiepeeps";}
+
+else  if (len % 4 == 2){
+   return "owls";}
+
+else  if (len % 4 == 3){
+   return "ravens";}
+
+  
+}

@@ -1,0 +1,65 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #333;
+  animation: flicker 1s infinite alternate;
+}
+
+#output p {
+  color: #fff;
+}
+
+@keyframes flicker {
+  0% {
+      background-color: #333;
+  }
+  50% {
+      background-color: #666;
+  }
+  100% {
+      background-color: #333;
+  }
+}
