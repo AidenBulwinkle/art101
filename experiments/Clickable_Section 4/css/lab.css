@@ -1,0 +1,27 @@
+.container{
+ 
+}
+
+.button1 {
+
+}
+
+.popup{
+  visibility: hidden;
+}
+
+.open-popup{
+ visibility: visible;
+}
+
+.popup-img{
+ width: 50%;
+ height: auto;
+ align-items: center;
+} 
+
+.popup p, h2, button{
+  
+}
+
+

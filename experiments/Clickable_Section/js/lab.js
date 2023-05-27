@@ -13,9 +13,22 @@ function myFunction(param1, param2) {
 }
 
 function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+  
 
-// let's get this party started
-main();
+
+
+let popup = document.getElementByClass("popup");
+
+
+
+console.log("test")
+
+button1.addEventListener("click", function() {
+  popup.classList.add("open-popup");
+});
+
+close.addEventListener("click", function() {
+  popup.classList.add("open-popup");
+});
+
+}

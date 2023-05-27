@@ -1,0 +1,59 @@
+.minor-section {
+ padding: 30px;
+ margin-bottom: 10px;
+ border: solid 10px #010000;
+ background-color: #45042fd7;
+ position: relative;
+ font-size: 60px;
+ font-family: 'Arial', sans-serif;
+ color: #ff00d0;
+ text-shadow: 0 0 10px #00ffae;
+ animation: flicker 0.2s infinite alternate;
+}
+
+
+@keyframes flicker {
+ 50% {
+   opacity: 1000;
+ }
+ 50% {
+   opacity: 50;
+   text-shadow: none;
+ }
+ 100% {
+   opacity: 1000;
+   text-shadow: 0 0 10px #ff00b3;
+ }
+}
+ @keyframes laserBeam {
+ 30% {
+   opacity: 1 var(10)
+   transform scaleY var (10) ;
+ }
+}
+
+
+h1 {
+   color: #de05f2;
+   background-color: #000000;
+   position: relative;
+   font-size: 40px;
+   font-family: 'Arial', sans-serif;
+   color: #55ff00;
+   text-shadow: 10px #FF0000;
+   animation: flicker .07s infinite alternate;
+ }
+  @keyframes flicker {
+   50% {
+     opacity: 1000;
+   }
+   50% {
+     opacity: 50;
+     text-shadow: none;
+   }
+   100% {
+     opacity: 1;
+     text-shadow: 0 0 10px #ff00b3;
+   }
+   
+ }

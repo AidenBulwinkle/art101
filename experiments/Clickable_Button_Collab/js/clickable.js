@@ -18,4 +18,8 @@ function main() {
 }
 
 // let's get this party started
-main();
+main()
+clickme.addEventListener("click", function () {alert ("lollololol");})
+
+
+console.log("hello")

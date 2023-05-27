@@ -1,0 +1,80 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* .container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+} */
+
+.button1 {
+  width: 50%;
+  height: auto;
+  background: black;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  /*transform: 0%, 0%; */
+}
+
+.popup{
+  width: 1000;
+  height: auto;
+  position:relative;
+  text-align: center;
+  padding: 0 30px 30px;
+  visibility: hidden;
+  top: 0;
+  transform: translate(-50%, -50%) scale(.1);
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(50%, 50%) scale(.4); 
+  text-align: center;
+  align-items: center;
+
+}
+
+.popup img{
+  width: 10px;
+  height: auto;
+  margin: -50px;
+  box-shadow: 1px 1px 1px black;
+}
+
+ .popup-img{
+  width: 100%;
+  height: auto;
+  margin: 50px; 
+  transform: scale(1);
+} 
+
+/* .popup h2{
+  font-size: 1000px;
+  font-family: times new roman;
+  text-align: center;
+  color: white;
+}
+
+.popup p{
+  font-size: 1000px;
+  font-family: times new roman;
+  text-align: center;
+  color: white;
+} */
+
+
+.popup p, h2, button{
+  font-size: 1000px;
+  font-family: times new roman;
+  text-align: center;
+  color: white;
+  transform: translate(50%, 50%) scale(.4); 
+}
+
+
