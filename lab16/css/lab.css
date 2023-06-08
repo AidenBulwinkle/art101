@@ -1,0 +1,48 @@
+/* site.css */
+/* Add any site-wide styles here */
+
+/* lab.css */
+/* Add any specific styles for this lab page here */
+
+body {
+  background-color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: "Hello Kitty", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  animation: colorChange 5s infinite alternate;
+}
+
+h2 {
+  font-size: 24px;
+  animation: colorChange 5s infinite alternate;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.minor-section {
+  margin-bottom: 30px;
+  border: 2px solid #f62a8c;
+  border-radius: 8px;
+  padding: 10px;
+  animation: borderPulse 5s infinite alternate;
+}
+

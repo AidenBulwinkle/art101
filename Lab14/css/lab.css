@@ -1,0 +1,72 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  /* we can use a single css file to style all the files in our wwebsite */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+body {
+  height: 200px;
+  background-color: linear-gradient(rgb(255, 0, 195), rgb(0, 153, 255), rgb(128, 90, 0));
+  background-image: linear-gradient(red, yellow, green);
+}
+
+/* we can have rules apply to multiple elements at the same time with commas */
+h1,h2,h3 {
+  font-family: sans-serif;
+
+}
+
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  color: white;
+  background-color: #000000;
+  background-image: linear-gradient(rgb(255, 0, 195), rgb(0, 153, 255), rgb(128, 90, 0));
+  /*background-image: url(bas_princen_wallpaper.jpg); */
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #000000;
+}
+
+.assignments section {
+    margin: 20px;
+    text-align: center;
+    border: solid 10px rgb(255, 0, 0);
+    color: black;
+    font-size: larger;
+}
+
+.toolarge {
+  margin: 15px;
+  width: 100px;
+  height: auto;
+}
+
+.column {
+  margin: 15px;
+  max-width: 50%;
+  height: auto;
+}

@@ -1,0 +1,86 @@
+.container{
+ 
+}
+
+
+/*Napkin*/
+
+.button1 {
+
+}
+
+.popup1{
+  visibility: hidden;
+}
+
+.open-popup1{
+ visibility: visible;
+}
+
+.popup-img1{
+ width: 50%;
+ height: auto;
+ align-items: center;
+} 
+
+/*Sheath*/
+
+.button2 {
+
+}
+
+
+.popup2{
+  visibility: hidden;
+}
+
+.open-popup2{
+ visibility: visible;
+}
+
+.popup-img2{
+ width: 50%;
+ height: auto;
+ align-items: center;
+} 
+
+/* Glove*/
+
+.button3 {
+
+}
+
+.popup3{
+  visibility: hidden;
+}
+
+.open-popup3{
+ visibility: visible;
+}
+
+.popup-img3{
+ width: 50%;
+ height: auto;
+ align-items: center;
+} 
+
+
+/* Obitiary */
+
+.button4 {
+
+}
+
+.popup4{
+  visibility: hidden;
+}
+
+.open-popup4{
+ visibility: visible;
+}
+
+.popup-img4{
+ width: 50%;
+ height: auto;
+ align-items: center;
+} 
